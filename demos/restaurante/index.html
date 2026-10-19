@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es" data-l="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brasa y Sal · Marbella</title>
+<meta name="description" content="Carnes maduradas, pescado de la lonja de Marbella y verduras a la brasa, en pleno casco antiguo.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF7F0;--ink:#2A1E17;--brand:#5B2A1C;--accent:#E8B04B;--soft:#EADFCF;--muted:#6B5A4E}
+*{box-sizing:border-box;margin:0;padding:0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth}
+body{font-family:"Karla",system-ui,sans-serif;background:var(--bg);color:var(--ink);font-size:18px;line-height:1.6}
+[data-l="es"] [data-t]:not([data-t="es"]){display:none}[data-l="en"] [data-t]:not([data-t="en"]){display:none}[data-l="de"] [data-t]:not([data-t="de"]){display:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Rozha One",Georgia,serif;font-weight:400;line-height:1.1}
+header{background:var(--brand);color:var(--bg)}
+.bar{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px}
+.bar strong{font-family:"Rozha One",serif;font-weight:400;font-size:22px}
+.langs{display:flex;gap:6px}
+.langs button{background:none;border:1px solid currentColor;color:inherit;font:600 14px "Karla",sans-serif;padding:4px 10px;border-radius:16px;cursor:pointer;opacity:.7}
+.langs button[aria-pressed="true"]{opacity:1;background:var(--bg);color:var(--brand)}
+.hero{padding:56px 0 80px}
+.hero .kind{font-size:17px;opacity:.85}
+.hero h1{font-size:clamp(48px,9vw,104px);margin:8px 0 20px;max-width:12ch}
+.hero p{max-width:36ch;font-size:21px;opacity:.92;margin-bottom:32px}
+.btn{display:inline-block;background:var(--accent);color:var(--ink);font-weight:600;text-decoration:none;padding:14px 24px;border-radius:6px}
+.btn.ghost{background:none;color:inherit;border:1px solid currentColor;margin-left:8px}
+section{padding:80px 0}
+h2{font-size:clamp(30px,4.5vw,46px);margin-bottom:12px}
+.lead{color:var(--muted);max-width:52ch}
+.list{margin-top:40px;display:grid;grid-template-columns:repeat(2,1fr);gap:0 56px}
+.row{display:grid;grid-template-columns:1fr auto;gap:4px 24px;padding:20px 0;border-bottom:1px solid var(--soft)}
+.row h3{font-size:22px}
+.row .p{font-weight:600;white-space:nowrap}
+.row p{grid-column:1/-1;color:var(--muted);font-size:16px}
+.about{background:var(--soft)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.about q{font-family:"Rozha One",serif;font-size:clamp(24px,3vw,32px);line-height:1.3;color:var(--brand);quotes:none}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:32px}
+.hours div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--soft)}
+.contact{background:var(--brand);color:var(--bg)}
+.contact p{max-width:40ch;margin:12px 0 28px;opacity:.9}
+footer{padding:28px 0;font-size:14px;color:var(--muted)}
+@media(max-width:760px){.list,.about-grid,.visit-grid{grid-template-columns:1fr;gap:0 24px}.about-grid,.visit-grid{gap:32px}section{padding:56px 0}.btn.ghost{margin:12px 0 0}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="bar"><strong>Brasa y Sal</strong>
+   <div class="langs"><button data-set="es" aria-pressed="true">ES</button><button data-set="en" aria-pressed="false">EN</button><button data-set="de" aria-pressed="false">DE</button></div>
+  </div>
+  <div class="hero">
+   <div class="kind"><span data-t="es">Asador de producto · Marbella</span><span data-t="en">Grill house · Marbella</span><span data-t="de">Grillrestaurant · Marbella</span></div>
+   <h1><span data-t="es">Fuego lento, producto del día.</span><span data-t="en">Slow fire, today&#39;s produce.</span><span data-t="de">Langsames Feuer, Ware vom Tag.</span></h1>
+   <p><span data-t="es">Carnes maduradas, pescado de la lonja de Marbella y verduras a la brasa, en pleno casco antiguo.</span><span data-t="en">Aged beef, fish from the Marbella market and charcoal-grilled vegetables, in the heart of the old town.</span><span data-t="de">Gereiftes Rindfleisch, Fisch vom Markt in Marbella und Gemüse vom Holzkohlegrill, mitten in der Altstadt.</span></p>
+   <a class="btn" href="https://wa.me/34600000000"><span data-t="es">Escribir por WhatsApp</span><span data-t="en">Message on WhatsApp</span><span data-t="de">Per WhatsApp schreiben</span></a>
+   <a class="btn ghost" href="#oferta"><span data-t="es">Ver la oferta</span><span data-t="en">See what we offer</span><span data-t="de">Angebot ansehen</span></a>
+  </div>
+ </div>
+</header>
+<main>
+<section id="oferta"><div class="wrap">
+ <h2><span data-t="es">De la brasa</span><span data-t="en">From the grill</span><span data-t="de">Vom Grill</span></h2>
+ <p class="lead"><span data-t="es">Una carta corta que cambia con la temporada.</span><span data-t="en">A short menu that changes with the season.</span><span data-t="de">Eine kleine Karte, die sich mit der Saison ändert.</span></p>
+ <div class="list">
+  <div class="row"><h3><span data-t="es">Chuletón de vaca madurada</span><span data-t="en">Aged beef rib steak</span><span data-t="de">Gereiftes Rinderkotelett</span></h3><span class="p">68 € / kg</span>
+  <p><span data-t="es">45 días de maduración, para compartir</span><span data-t="en">Aged 45 days, to share</span><span data-t="de">45 Tage gereift, zum Teilen</span></p></div>
+  <div class="row"><h3><span data-t="es">Pescado de lonja</span><span data-t="en">Catch of the day</span><span data-t="de">Fang des Tages</span></h3><span class="p">S/M</span>
+  <p><span data-t="es">Según mercado, a la brasa con limón</span><span data-t="en">Market price, grilled with lemon</span><span data-t="de">Nach Marktlage, gegrillt mit Zitrone</span></p></div>
+  <div class="row"><h3><span data-t="es">Alcachofas a la brasa</span><span data-t="en">Grilled artichokes</span><span data-t="de">Gegrillte Artischocken</span></h3><span class="p">14 €</span>
+  <p><span data-t="es">Con romesco casero</span><span data-t="en">With homemade romesco</span><span data-t="de">Mit hausgemachter Romesco</span></p></div>
+  <div class="row"><h3><span data-t="es">Torrija de brioche</span><span data-t="en">Brioche French toast</span><span data-t="de">Brioche-Arme-Ritter</span></h3><span class="p">8 €</span>
+  <p><span data-t="es">Con helado de vainilla</span><span data-t="en">With vanilla ice cream</span><span data-t="de">Mit Vanilleeis</span></p></div>
+ </div>
+</div></section>
+<section class="about"><div class="wrap about-grid">
+ <q><span data-t="es">Si el producto es bueno, el fuego solo tiene que no estropearlo.</span><span data-t="en">When the produce is good, the fire just has to not spoil it.</span><span data-t="de">Ist das Produkt gut, muss das Feuer es nur nicht verderben.</span></q>
+ <div><p class="lead"><span data-t="es">Abrimos en 2018 con una idea: pocas cosas y bien hechas. Compramos cada mañana y cocinamos solo con encina.</span><span data-t="en">We opened in 2018 with one idea: few things, done well. We shop every morning and cook only over holm oak.</span><span data-t="de">Wir haben 2018 mit einer Idee eröffnet: wenige Dinge, gut gemacht. Wir kaufen jeden Morgen ein und grillen nur über Steineiche.</span></p></div>
+</div></section>
+<section><div class="wrap">
+ <h2><span data-t="es">Dónde estamos</span><span data-t="en">Find us</span><span data-t="de">So finden Sie uns</span></h2>
+ <div class="visit-grid">
+  <div><p>Calle Ejemplo 12, 29601 Marbella</p><p style="margin-top:12px"><a href="https://maps.google.com/?q=Calle%20Ejemplo%2012%2C%2029601%20Marbella"><span data-t="es">Abrir en Google Maps</span><span data-t="en">Open in Google Maps</span><span data-t="de">In Google Maps öffnen</span></a></p></div>
+  <div class="hours"><div><span><span data-t="es">Martes a domingo</span><span data-t="en">Tuesday to Sunday</span><span data-t="de">Dienstag bis Sonntag</span></span><span>13:00–16:30 · 20:00–23:30</span></div><div><span><span data-t="es">Lunes</span><span data-t="en">Monday</span><span data-t="de">Montag</span></span><span>—</span></div></div>
+ </div>
+</div></section>
+<section class="contact"><div class="wrap">
+ <h2><span data-t="es">Reserva tu mesa</span><span data-t="en">Book your table</span><span data-t="de">Tisch reservieren</span></h2>
+ <p><span data-t="es">Te respondemos el mismo día.</span><span data-t="en">We reply the same day.</span><span data-t="de">Wir antworten am selben Tag.</span></p>
+ <a class="btn" href="https://wa.me/34600000000"><span data-t="es">Escribir por WhatsApp</span><span data-t="en">Message on WhatsApp</span><span data-t="de">Per WhatsApp schreiben</span></a>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Brasa y Sal · Marbella · <span data-t="es">Web de demostración creada por Atalaya Studio</span><span data-t="en">Demo site by Atalaya Studio</span><span data-t="de">Demo-Website von Atalaya Studio</span></div></footer>
+<script>
+document.querySelectorAll('[data-set]').forEach(b=>b.addEventListener('click',()=>{const l=b.dataset.set;document.documentElement.dataset.l=l;document.documentElement.lang=l;document.querySelectorAll('[data-set]').forEach(x=>x.setAttribute('aria-pressed',x===b))}));
+</script>
+</body>
+</html>
