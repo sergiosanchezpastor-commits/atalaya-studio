@@ -114,6 +114,20 @@ footer{padding:32px 0;font-size:15px;color:var(--muted)}
 </header>
 
 <main>
+<section id="video" style="padding:72px 0;background:#fff">
+  <div class="wrap" style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center" id="vgrid">
+    <div>
+      <h2><span class="es">Así es un vídeo nuestro</span><span class="en">This is one of our videos</span></h2>
+      <p class="intro"><span class="es">30 segundos, en vertical para redes y WhatsApp, con voz profesional en español, inglés y alemán. Es el mismo formato que hacemos para tu negocio.</span><span class="en">30 seconds, vertical for social media and WhatsApp, with a professional voice in Spanish, English and German. The same format we make for your business.</span></p>
+    </div>
+    <div style="max-width:340px;justify-self:center;width:100%">
+      <video class="es" controls playsinline preload="metadata" style="width:100%;border-radius:8px;display:block" src="video/atalaya_final_es.mp4"></video>
+      <video class="en" controls playsinline preload="metadata" style="width:100%;border-radius:8px" src="video/atalaya_final_en.mp4"></video>
+    </div>
+  </div>
+</section>
+<style>@media(max-width:760px){#vgrid{grid-template-columns:1fr!important;gap:24px!important}}</style>
+
 <section id="packs">
   <div class="wrap">
     <h2><span class="es">Tres packs, precio cerrado</span><span class="en">Three packages, fixed prices</span></h2>
